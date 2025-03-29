@@ -1,0 +1,98 @@
+.popular__card {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    row-gap: 1.5rem;
+}
+
+.popular__images {
+    position: relative;
+    display: grid;
+    justify-items: center;
+    justify-self: center;
+    margin-bottom: 1rem;
+}
+
+.popular__shape {
+    width: 195px;
+    height: 195px;
+    background-color: var(--first-color);
+    border-radius: 50%;
+    clip-path: inset(50% 0 0 0);
+}
+
+.popular__images img {
+    position: absolute;
+}
+
+.popular__coffe {
+    width: 130px;
+    top: -1.5rem;
+}
+
+.popular__bean-1 {
+    width: 30px;
+    top: 3rem;
+    left: 0.5rem;
+    transition: transform .5s .1s;
+}
+
+.popular__bean-2 {
+    width: 20px;
+    right: 2rem;
+    bottom: 2rem;
+    rotate: 75deg;
+    filter: blur(1px);
+    transition: transform .5s .1s;
+}
+
+.popular__data {
+    text-align: center;
+}
+
+
+.popular__name {
+    font-size: var(--h1-font-size);
+    color: var(--title-color);
+    margin-bottom: .5rem;
+}
+
+.popular__description {
+    margin-bottom: 1.5rem;
+}
+
+.popular__card:hover .popular__bean-1 {
+    transform: translate(-.5rem, -.25rem)
+}
+
+
+.popular__card:hover .popular__bean-2 {
+    transform: translate(-.5rem, -.25rem);
+}
+
+@media screen and (min-width:1150px) {
+    .popular__card {
+        width: 280px;
+    }
+
+    .popular__shape {
+        width: 280px;
+        height: 280px;
+    }
+
+    .popular__coffe {
+        width: 185px;
+        top: -2rem;
+    }
+
+    .popular__bean-1 {
+        width: 40px;
+        top: 4rem;
+        left: .75rem;
+    }
+
+    .popular__bean-2 {
+        width: 30px;
+        right: 2.5rem;
+        bottom: 2.5rem;
+    }
+}

@@ -1,0 +1,101 @@
+
+  
+  .about__data {
+    text-align: center;
+  }
+  
+  .about .section__title,
+  .about__description {
+    color: white;
+    margin-bottom: 1.5rem;
+  }
+  
+  .about__images {
+    position: relative;
+    display: grid;
+    place-items: center;
+    justify-self: center
+  }
+  
+  .about__shape {
+    width: 300px;
+    height: 300px;
+    background-color: var(--first-color);
+    border-radius: 50%;
+  }
+  
+  .about__images img {
+    position: absolute;
+  }
+  
+  .about__coffee {
+    width: 280px;
+    filter: drop-shadow(0 8px 16px hsla(166, 85%, 8%, .5));
+  }
+  
+  .about__leaf-1,
+  .about__leaf-2 {
+    width: 50px;
+  }
+  
+  .about__leaf-1 {
+    top: .5rem;
+    left: 3.5rem;
+    rotate: -105deg;
+  }
+  
+  .about__leaf-2 {
+    top: 7.75rem;
+    right: 2.5rem;
+    rotate: -15deg;
+  }
+
+  @media screen and(min-width:576px) {
+
+    .about__container{
+      grid-template-columns: 400px;
+      justify-content: center;
+    }
+  
+  }
+
+  @media screen and (min-width:1150px){
+    .about__container{
+        grid-template-columns:  430px 500px;
+        justify-content: center;
+        column-gap: 6rem;
+        padding-block: 2rem;
+      }
+    
+      .about__data, .about .section__title{
+        text-align: initial;
+      }
+    
+      .about__description{
+        margin-bottom:4rem;
+      }
+    
+      .about__shape{
+        width: 500px;
+        height: 500px;
+      }
+    
+      .about__coffee{
+        width: 480px;
+      }
+    
+      .about__leaf-1,
+      .about__leaf-2{
+        width: 85px;
+      }
+    
+      .about__leaf-1{
+        top: .75rem;
+        left: 6rem;
+      }
+    
+      .about__leaf-2{
+        top:13rem;
+        right:3.5rem;
+      }
+  }

@@ -1,0 +1,30 @@
+.popular {
+    padding-top: 2rem;
+    background-color: var(--body-white-color);    
+}
+
+.popular .section__title {
+    color: var(--title-color);
+}
+
+.popular__coffes {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+@media screen and (min-width:1150px) {
+    .popular__container {
+        padding-bottom: 2rem;
+    }
+
+    .popular__coffes {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    
+}

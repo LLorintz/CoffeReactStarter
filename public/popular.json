@@ -1,0 +1,22 @@
+[
+  {
+    "name": "VANILLA LATTE",
+    "description": "Indulge in the simplicity of our delicious cold brew coffee.",
+    "price": "$19.90",
+    "image": "/img/popular-coffee-1.png"
+    
+  },
+  {
+    "name": "CLASSIC COFFE",
+    "description": "Indulge in the simplicity of our delicious cold brew coffee.",
+    "price": "$19.90",
+    "image": "/img/popular-coffee-2.png"
+    
+  },
+  {
+    "name": "MOCHA COFFEE",
+    "description": "Indulge in the simplicity of our delicious cold brew coffee.",
+    "price": "$19.90",
+    "image":"/img/popular-coffee-3.png"
+  }
+]

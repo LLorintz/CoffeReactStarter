@@ -1,0 +1,33 @@
+[
+    {
+      "name": "ICED COFFEE",
+      "price": 15.90,
+      "image":"/img/products-coffee-1.png"
+    },
+    {
+      "name": "COFFEE WITH CREAM",
+      "price": 11.90,
+      "image":"/img/products-coffee-2.png"
+    },
+    {
+      "name": "CAPPUCCINO COFFEE",
+      "price": 19.90,
+      "image":"/img/products-coffee-3.png"
+    },
+    {
+      "name": "COFFEE WITH MILK",
+      "price": 9.90,
+      "image":"/img/products-coffee-4.png"
+    },
+    {
+      "name": "ICED COFFEE",
+      "price": 5.90,
+      "image":"/img/products-coffee-5.png"
+    },
+    {
+      "name": "ICED COFFEE FRAPPE",
+      "price": 16.90,
+      "image":"/img/products-coffee-6.png"
+    }
+  ]
+  

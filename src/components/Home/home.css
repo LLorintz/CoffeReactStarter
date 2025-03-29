@@ -1,0 +1,188 @@
+.home__container {
+    position: relative;
+    padding-top: 3rem;
+    row-gap: 0;
+
+}
+
+.home__title {
+    color: var(--white-color);
+    font-size: var(--biggest-font-size);
+    font-weight: var(--font-semi-bold);
+    text-align: center;
+}
+
+.home__images {
+    position: relative;
+    display: grid;
+    justify-items: center;
+    justify-self: center;
+}
+
+.home__shape {
+    width: 280px;
+    height: 280px;
+    background-color: var(--first-color);
+    border-radius: 50%;
+    clip-path: inset(50% 0 0 0);
+}
+
+.home__images img {
+    position: absolute;
+}
+
+.home__coffe {
+    width: 160px;
+    top: -3.5rem;
+    rotate: 10deg;
+}
+
+.home__splash {
+    max-width: initial;
+    width: 350px;
+    rotate: 10deg;
+    left: -3rem;
+    bottom: .5rem;
+}
+
+.home__bean-1,
+.home__bean-2 {
+    width: 40px;
+}
+
+.home__bean-1 {
+    left: 1.5rem;
+    top: 1.5rem;
+}
+
+.home__bean-2 {
+    right: 3.5rem;
+    bottom: 6.5rem;
+    rotate: 90deg;
+    filter: blur(2px)
+}
+
+.home__ice-1 {
+    width: 50px;
+    left: 1.5rem;
+    bottom: 3rem;
+}
+
+.home__ice-2 {
+    width: 40px;
+    top: 4rem;
+    right: 1.25rem;
+    rotate: 60deg;
+}
+
+.home__leaf {
+    width: 50px;
+    right: 6rem;
+    bottom: -1rem;
+    rotate: -15deg;
+}
+
+.home__sticker {
+    position: absolute;
+    width: 50px;
+    right: 0.5rem;
+    top: 29rem;
+    rotate: 15deg;
+}
+
+.home__data {
+    margin-top: 2.5rem;
+    text-align: center;
+}
+
+.home__description {
+    color: var(--white-color);
+    margin-bottom: 1.5rem
+}
+
+@media screen and (min-width:1150px) {
+    .home {
+        width: 100vw;
+
+    }
+
+    .home__container {
+        grid-template-columns: 970px;
+        max-width: 970px;
+        padding-top: 2.5rem;
+        margin: auto;
+    }
+
+    .home__images {
+        transform: translate(1rem, -2rem);
+    }
+
+    .home__shape {
+        width: 490px;
+        height: 490px;
+    }
+
+    .home__coffe {
+        width: 280px;
+        top: -6rem;
+    }
+
+    .home__splash {
+        width: 615px;
+        left: -5rem;
+        bottom: .75rem
+    }
+
+    .home__bean-1,
+    .home__bean-2 {
+        width: 70px;
+    }
+
+    .home__bean-1 {
+        left: 3rem;
+        top: 3rem;
+        ;
+    }
+
+    .home__bean-2 {
+        bottom: 10.75rem;
+        right: 6.5rem;
+    }
+
+    .home__ice-1 {
+        width: 90px;
+        left: 2.5rem;
+        bottom: 5rem;
+    }
+
+    .home__ice-2 {
+        width: 70px;
+        top: 6.5rem;
+        right: 2rem;
+    }
+
+    .home__leaf {
+        width: 90px;
+        right: 10rem;
+        bottom: -2.5rem;
+    }
+
+    .home__data {
+        position: absolute;
+        top: 20rem;
+        left: 0;
+        width: 230px;
+        text-align: initial;
+        margin-top: 0;
+    }
+
+    .home__description {
+        margin-bottom: 6rem;
+    }
+
+    .home__sticker {
+        width: 150px;
+        top: 23rem;
+        right: 0;
+    }
+}
