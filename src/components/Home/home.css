@@ -1,11 +1,13 @@
-.home__container {
+.home {
+    margin-top: 3rem;
+    padding-block: 5rem 4rem;
     position: relative;
     padding-top: 3rem;
     row-gap: 0;
-
 }
 
 .home__title {
+
     color: var(--white-color);
     font-size: var(--biggest-font-size);
     font-weight: var(--font-semi-bold);
@@ -102,15 +104,16 @@
 
 @media screen and (min-width:1150px) {
     .home {
+        margin-top: 3rem;
         width: 100vw;
-
-    }
-
-    .home__container {
         grid-template-columns: 970px;
         max-width: 970px;
         padding-top: 2.5rem;
         margin: auto;
+    }
+
+    .home__title {
+        margin-top: 3rem;
     }
 
     .home__images {
