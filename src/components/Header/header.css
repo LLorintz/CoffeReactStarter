@@ -8,15 +8,19 @@
   transition: box-shadow 0.4s;
 }
 
-.nav {
+.header nav {
   position: relative;
   height: var(--header-height);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 1120px;
+  margin-inline: 1.5rem;
+  margin: auto;
+  padding: 0 1rem;
 }
 
-.nav__logo {
+a.nav__logo {
   color: var(--white-color);
   font-family: var(--second-font);
   font-weight: var(--font-semi-bold);
@@ -91,7 +95,7 @@
 
 @media screen and (min-width:1150px) {
 
-  .nav {
+  .header nav {
     height: calc(var(--header-height));
   }
 
