@@ -1,9 +1,12 @@
 .popular {
-    padding-top: 2rem;
-    background-color: var(--body-white-color);    
+    padding: 4rem;
+    background-color: var(--body-white-color);
+
+
 }
 
 .popular .section__title {
+
     color: var(--title-color);
 }
 
@@ -22,9 +25,9 @@
     }
 
     .popular__coffes {
-      flex-direction: row;
-      justify-content: space-between;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
-    
+
 }
