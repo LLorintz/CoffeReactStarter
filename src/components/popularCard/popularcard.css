@@ -24,11 +24,6 @@
     position: absolute;
 }
 
-.popular__coffe {
-    width: 130px;
-    top: -1.5rem;
-}
-
 .popular__bean-1 {
     width: 30px;
     top: 3rem;
@@ -44,6 +39,13 @@
     filter: blur(1px);
     transition: transform .5s .1s;
 }
+
+.popular__coffee {
+    width: 130px;
+    top: -1.5rem;
+}
+
+
 
 .popular__data {
     text-align: center;
