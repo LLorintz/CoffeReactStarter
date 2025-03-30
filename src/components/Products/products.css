@@ -7,7 +7,13 @@
 }
 
 .products__container {
+    display: grid;
+    gap: 1.5rem;
     grid-template-columns: repeat(2, 1fr);
+    max-width: 1120px;
+    margin-inline: 1.5rem;
+    margin: auto;
+    padding: 1rem;
 }
 
 @media screen and(min-width:576px) {
@@ -24,12 +30,12 @@
     }
 }
 
-@media screen and (min-width:1150px){
-    .products__container{
+@media screen and (min-width:1150px) {
+    .products__container {
         grid-template-columns: repeat(3, 2fr);
-        gap:5rem;
+        gap: 5rem;
         padding-bottom: 2rem;
-      }
-    
-     
+    }
+
+
 }
