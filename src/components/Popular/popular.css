@@ -20,6 +20,11 @@
 
 
 @media screen and (min-width:1150px) {
+    .popular {
+        width: 1150px;
+        margin: auto;
+    }
+
     .popular__container {
         padding-bottom: 2rem;
     }
