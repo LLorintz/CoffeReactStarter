@@ -9,6 +9,16 @@ const Header = () => {
 
     {/* Ha 50 px-rel lejjebb görgetünk (window.scrollY >= 50), akkor a header osztályú elemhez adjuk hozzá a shadow-header osztályt. */}
 
+     {/*
+     Használd hozzá ezt a kódot
+     useEffect(()=>{
+     const handleScroll = () => {
+        setHasShadow(window.scrollY >= 50);
+       }; 
+       window.addEventListener("scroll", handleScroll);
+       },[])
+    */}
+
     {/*Generáld le a HOME, POPULAR, ABOUT US, PRODUCTS, CONTACT listaelemeket. Mindegyik a megfelelő helyre mutasson az oldalon*/}
         
     {/*A szükséges css osztályokat megtalálod a header.css - ben.*/}
