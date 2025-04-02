@@ -29,7 +29,7 @@ const Header = () => {
 
     {/*toggle ikon osztálya: ri-apps-2-fill */}
 
-    return()
+    return
 }
 
 export default Header
