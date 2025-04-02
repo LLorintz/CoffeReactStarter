@@ -9,7 +9,7 @@ const Home = () => {
 
   {/*A gomb mutasson az about részre */}
 
-  {/*Egészítsd ki a hiányzó részekkel */}}
+  {/*Egészítsd ki a hiányzó részekkel (osztálynevek végig hiányoznak)*/}}
   return (
     <div className="" id="home">        
             <h1 className=""></h1>
