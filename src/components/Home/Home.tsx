@@ -17,14 +17,14 @@ const Home = () => {
                 {/*ide illeszd be az alakzatot*/}
                 {/*ide illeszd be a képeket*/}
             </div>
-            <img src="/img/home-sticker.svg" alt="Home sticker" className="home__sticker" />
-        <div className="home__data">
-            <p className="home__description">
+            {/*ide illeszd a stickert*/}
+        <div className="">
+            <p className="">
                 Find delicious hot and cold coffees with the
                 best varieties, calm the pleasure and enjoy
                 a good coffee, order now.
             </p>
-            <a href="#about" className="button">Learn More</a>
+            <a href="" className="">Learn More</a>
         </div>        
     </div>
   )
